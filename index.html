@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CarePlus Multi-Speciality Clinic</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+body{line-height:1.6;color:#333;background:#f7f9fc;}
+header{
+background:url('https://images.unsplash.com/photo-1580281657521-3c8b3b7b8b5b?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+height:90vh;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+header h1{font-size:55px;}
+header p{font-size:20px;margin-top:10px;max-width:600px;}
+.btn{
+margin-top:20px;
+padding:12px 25px;
+background:#0a7cff;
+color:white;
+border:none;
+cursor:pointer;
+font-size:16px;
+border-radius:5px;
+}
+nav{
+background:#0a2a43;
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+z-index:100;
+}
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-size:16px;
+}
+section{padding:60px 20px;max-width:1100px;margin:auto;}
+.title{text-align:center;margin-bottom:30px;font-size:30px;color:#0a2a43;}
+.services,.doctors{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+.card img{width:100%;border-radius:10px;height:180px;object-fit:cover;}
+.contact, .appointment{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+footer{
+background:#0a2a43;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+</head>
+<body><header>
+<h1>CarePlus Clinic</h1>
+<p>Advanced Healthcare With Compassion & Care</p>
+<button class="btn">Book Appointment</button>
+</header><nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#doctors">Doctors</a>
+<a href="#appointment">Appointment</a>
+<a href="#contact">Contact</a>
+</nav><section id="about">
+<h2 class="title">About Us</h2>
+<p>CarePlus Clinic is a multi-speciality healthcare center providing expert medical services with modern technology and experienced doctors. We focus on patient care, safety, and quick recovery.</p>
+</section><section id="services">
+<h2 class="title">Our Services</h2>
+<div class="services">
+<div class="card">
+<h3>General Medicine</h3>
+<p>Complete diagnosis and treatment for common diseases.</p>
+</div>
+<div class="card">
+<h3>Dental Care</h3>
+<p>Advanced dental treatments and oral hygiene care.</p>
+</div>
+<div class="card">
+<h3>Cardiology</h3>
+<p>Heart-related diagnosis and treatment facilities.</p>
+</div>
+<div class="card">
+<h3>Pediatrics</h3>
+<p>Special care for infants, children, and adolescents.</p>
+</div>
+</div>
+</section><section id="doctors">
+<h2 class="title">Our Doctors</h2>
+<div class="doctors">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2" />
+<h3>Dr. Anjali Sharma</h3>
+<p>General Physician</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7" />
+<h3>Dr. Rahul Verma</h3>
+<p>Cardiologist</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f" />
+<h3>Dr. Priya Singh</h3>
+<p>Dentist</p>
+</div>
+</div>
+</section><section id="appointment">
+<h2 class="title">Book Appointment</h2>
+<div class="appointment">
+<form>
+<input type="text" placeholder="Full Name" required />
+<input type="number" placeholder="Phone Number" required />
+<input type="email" placeholder="Email" />
+<input type="date" required />
+<textarea rows="4" placeholder="Problem Description"></textarea>
+<button class="btn" type="submit">Submit</button>
+</form>
+</div>
+</section><section id="contact">
+<h2 class="title">Contact Us</h2>
+<div class="contact">
+<p>📍 CarePlus Clinic, Tikrapara, Raipur, Chhattisgarh</p>
+<p>📞 +91 90xxxx09</p>
+<p>📧 careplusclinic@gmail.com</p>
+<p>⏰ Mon - Sat: 9AM - 8PM</p>
+<p>🚨 Emergency: 24/7 Available</p>
+</div>
+</section><footer>
+<p>© 2026 CarePlus Clinic. All Rights Reserved.</p>
+</footer></body>
+</html>
